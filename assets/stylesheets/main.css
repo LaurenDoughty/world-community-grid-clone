@@ -1,0 +1,121 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    height: 100vh;
+    background-position: center;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 100vw;
+  height: 8vh;
+  background-color: royalblue;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-bottom: 1px solid aliceblue;
+}
+
+#section3a {
+  background:
+      linear-gradient(rgba(0,0,255,0.45),rgba(0,0,255,0.45)),
+      url('../images/OAI3050.jpg');
+  background-size: cover;
+}
+
+#section3b {
+  background:
+      linear-gradient(rgba(0,0,255,0.45),rgba(0,0,255,0.45)),
+      url('../images/OAI3050.jpg');
+  background-size: cover;
+}
+
+#section3c {
+  background:
+      linear-gradient(rgba(0,0,255,0.45),rgba(0,0,255,0.45)),
+      url('../images/OAI3050.jpg');
+  background-size: cover;
+}
+
+subsection {
+  display:flex;
+  height: 100vh;
+  justify-content:center;
+  flex-wrap: wrap;
+  background-color: dodgerblue;
+}
+
+#arrow {
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+#hr {
+  display:flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap:wrap;
+  width: 50vw;
+}
+
+.image {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+#image2 {
+  margin-top: 4vh;
+  margin-bottom: 10vh;
+}
+
+#image3 {
+  margin-top: 4vh;
+  margin-bottom: 10vh;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+h3 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-bottom: 8vh;
+  text-align: center;
+}
+
+strong {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-bottom: 8vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100vw;
+}
