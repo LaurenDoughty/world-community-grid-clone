@@ -99,7 +99,7 @@ strong {
   justify-content: space-between;
   flex-wrap: wrap;
   height:88vh;
-  border:2px solid red;
+  width: 40vw;
   text-align: center;
 
 }
