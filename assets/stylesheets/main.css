@@ -47,7 +47,6 @@ subsection {
   width: 100%;
   height: 100%;
   justify-content:center;
-  align-items: flex-start;
   flex-wrap: wrap;
   background-color: dodgerblue;
 }
@@ -73,15 +72,15 @@ h3 {
 p {
   color: white;
   font-family: sans-serif;
-  font-size: 3vmin;
+  font-size: 16px;
   margin-bottom: 1vh;
 }
 
 strong {
   color: white;
   font-family: sans-serif;
-  font-size: 3vmin;
   margin-bottom: 1vh;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -92,17 +91,37 @@ strong {
   justify-content: space-between;
   flex-wrap: wrap;
   height:92vh;
-  width: 100%;
+  width: 90%;
   text-align: center;
-  border: 2px red solid;
+  }
 
+.attribution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height:92vh;
+  width: 90%;
+  text-align: center;
 }
 
 @media only screen and (min-width:100px) and (max-width:480px)  {
-
-
-
-
+p,strong {
+font-size:12px;
+}
+#compass {
+  width:100px;
+  height:100px;
+}
+#binocular-man {
+  width: 150px;
+  height: 100px;
+}
+#calendar {
+  width: 120px;
+  height: 100px;
+}
 }
 
 @media only screen and (min-width:481px)  {
@@ -110,13 +129,17 @@ strong {
 
 }
 @media only screen and (min-width:641px)  {
-
+  .wrapper {
+    width:80%;
+  }
 
 }
 @media only screen and (min-width:961px)  {
+.wrapper {
+  width:50%;
+}
 
 
-   }
   }
 @media only screen and (min-width:1025px) {
 
