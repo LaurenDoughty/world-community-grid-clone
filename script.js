@@ -22,3 +22,7 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+$(document).ready(function(){
+  $( "#accordion" ).accordion();
+});
