@@ -13,7 +13,7 @@ body, html {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 7vh;
+  height: 8vh;
   background-color: royalblue;
   color: white;
   font-family: sans-serif;
@@ -47,8 +47,7 @@ subsection {
   width: 100%;
   height: 100%;
   justify-content:center;
-  align-items: center;
-  align-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   background-color: dodgerblue;
 }
@@ -92,7 +91,7 @@ strong {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  height:100%;
+  height:92vh;
   width: 100%;
   text-align: center;
   border: 2px red solid;
@@ -102,32 +101,30 @@ strong {
 @media only screen and (min-width:100px) and (max-width:480px)  {
 
 
-  .wrapper {
-    justify-content: center;
- }
+
+
 }
 
 @media only screen and (min-width:481px)  {
-  .wrapper {
-    justify-content: center;
-  }
+
+
 }
 @media only screen and (min-width:641px)  {
-  .wrapper {
-    justify-content: center;
+
+
 }
 @media only screen and (min-width:961px)  {
-  .wrapper {
+
 
    }
   }
 @media only screen and (min-width:1025px) {
-.wrapper {
+
 
  }
 }
 @media only screen and (min-width:1281px) {
-..wrapper {
+
 
  }
 }
