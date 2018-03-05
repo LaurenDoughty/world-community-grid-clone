@@ -7,26 +7,31 @@
 			initial-scale=1.0, maximum-scale=1.0' />
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="script.js"></script>
+	<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+
 </head>
 <body>
 	<section class="bg, flex-container" id="accordion">
 	        <!-- Section 3a - Blue - Challenge -->
 	        <subsection id="section3a">
-							<div class="ui-accordion-header,ui-accordion-icons" id="header-challenge">
+							<div class="subheader" id="header-challenge">
 								<img src="assets\images\003-mountain.png"
-								  height=36px width="36px" class="icon, ui-accordion-header-icon">
+								  height=36px width="36px" class="icon">
+
 								<h2>Challenge</h2>
 							</div>
-							<div class="wrapper, ui-accordion-content">
+							<div class="wrapper">
 								<h3>Scientists need help</h3>
 								<img src="assets/images/boobaloo-Compass-300px.png" height=200px
 								width=200px>
-								<p>They’re searching the microscopic world for answers to our
+								<p text="center">They’re searching the microscopic world for answers to our
 									biggest problems, but it’s hard to know where to start.
 									That’s why many use computer simulations to point them in the right
-									direct just as explorers rely on maps to find their way.</p>
-							  <strong>Finding answers is tough, and without more computers, doing
+									direction, just as explorers rely on maps to find their way.</p>
+							  <strong text="center">Finding answers is tough, and without more computers, doing
 									scientific research can be a bit like exploring with an
 									incomplete map</strong>
 									<a href="#section3b">
@@ -38,12 +43,12 @@
 
 	        <!-- Section 3b - Blue - Solution -->
 	        <subsection id="section3b">
-						<div class="ui-accordion-header,ui-accordion-icons" id="header-solution">
+						<div class="subheader" id="header-solution">
 							<img src="assets\images\002-small-circular-compass.png"
-								height=36px width="36px" class="icon,ui-accordion-header-icon">
+								height=36px width="36px" class="icon">
 							<h2>Solution</h2>
 						</div>
-						<div class="ui-accordion-content">
+						<div class="wrapper">
 
 								<h3>Your device makes a difference</h3>
 								<img id="image2" src="assets/images/binocular_man_desert_explorer-35514.jpg"
@@ -53,8 +58,7 @@
 									join the thousands of volunteers helping to chart the
 									microscopic jungle.</p>
 
-						</div>
-						<div class="arrow-container">
+
 							<a href="#section3c">
 							<img src="assets/images/down-arrow.png" height=48px width=48px
 							id="arrow4">
@@ -65,12 +69,12 @@
 
 	    	<!-- Section 3c - Blue - Impact -->
 	        <subsection id="section3c">
-						<div class="ui-accordion-header,ui-accordion-icons" id="header-impact">
+						<div class="subheader" id="header-impact">
 							<img src="assets\images\001-waving-flag.png"
 								height=36px width="36px" class="icon,ui-accordion-header-icon">
 							<h2>Impact</h2>
 						</div>
-						<div class="ui-accordion-content">
+						<div class="wrapper">
 
 								<h3>Get results that matter</h3>
 								<img id="image3" src="assets/images/blue-calendar-vector-clipart.png"
@@ -82,8 +86,6 @@
 									areas to study in the lab, bringing them one step closer to
 									discoveries that save lives and address global problems.</p>
 
-						</div>
-						<div class="arrow-container">
 							<a href="#attribution">
 								<img src="assets/images/down-arrow.png" height=48px width=48px
 							id="arrow5">
@@ -93,11 +95,11 @@
 					  </div>
 
 						<subsection id="attribution">
-							<div class="ui-accordion-header" id="header-attribution">
+							<div class="subheader" id="header-attribution">
 								<h2>Attribution</h2>
 							</div>
 							<div>
-								<div class="ui-accordion-content">
+								<div class="wrapper">
 									<h3>Attribution for Images:</h3>
 									<p>Icons made by <a href="https://www.flaticon.com/authors/lucy-g"
 					title="Lucy G">Lucy G</a> from <a href="https://www.flaticon.com/"
